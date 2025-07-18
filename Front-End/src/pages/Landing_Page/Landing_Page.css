@@ -15,7 +15,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #8e4162c6;
+  color: #1f1f2edb;
   font-size: 3.5rem;
   transition: transform 0.2s ease;
   z-index: 11;

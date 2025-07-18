@@ -13,7 +13,8 @@ const SideBar = () => {
   };
 
   return (
-    <div
+   <>
+     <div
       className={`side-bar ${isExpanded ? 'expanded' : 'collapsed'}`}
       onMouseEnter={() => setIsExpanded(true)}
       onMouseLeave={() => setIsExpanded(false)}
@@ -49,6 +50,8 @@ const SideBar = () => {
         </li>
       </ul>
     </div>
+   </>
+   
   );
 };
 
